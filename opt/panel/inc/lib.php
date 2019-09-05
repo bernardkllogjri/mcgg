@@ -544,7 +544,7 @@ log: ".$_POST['dir']."/ngrok.log \n
 	if ($_POST['version'] == '1.10.2') {
 		copy('serverbase/spigot-1.10.2.jar',$_POST['dir'].'/spigot-1.10.2.jar');
 	} else if ($_POST['version'] == '1.11.2') {
-		copy('serverbase/spigot-1.11.2.jar',$_POST['dir'].'/spigot-1.11.2.jar');
+		copy('serverbase/server.jar',$_POST['dir'].'/server.jar');
 	} else if ($_POST['version'] == '1.9.4') {
 		copy('serverbase/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar',$_POST['dir'].'/spigot-1.9.4.jar');
 	} else if ($_POST['version'] == '1.8.8') {
